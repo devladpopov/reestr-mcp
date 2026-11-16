@@ -3,8 +3,12 @@
   "name": "ru.reestr-reestrov/reestr",
   "title": "Реестр реестров: Russian state registries",
   "description": "Russian government registries: 596-registry catalog, company check by INN, licenses and SRO records",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://reestr-reestrov.ru/mcp/",
+  "repository": {
+    "url": "https://github.com/devladpopov/reestr-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
