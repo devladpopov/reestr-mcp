@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ru.reestr-reestrov/reestr",
+  "title": "Реестр реестров: Russian state registries",
+  "description": "Russian government registries: 596-registry catalog, company check by INN, licenses and SRO records",
+  "version": "1.0.0",
+  "websiteUrl": "https://reestr-reestrov.ru/mcp/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reestr-reestrov.ru/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Free key from https://reestr-reestrov.ru/mcp/#klyuch raises row limit from 10 to 50: Bearer rr_...",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

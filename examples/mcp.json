@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "reestr": {
+      "url": "https://reestr-reestrov.ru/api/mcp",
+      "headers": { "Authorization": "Bearer rr_YOUR_FREE_KEY" }
+    }
+  }
+}
