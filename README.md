@@ -2,6 +2,8 @@
 
 [English below](#english)
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/devladpopov/reestr-mcp)
+
 Удалённый MCP-сервер [Реестра реестров](https://reestr-reestrov.ru/mcp/). Ассистент (Claude, ChatGPT, Cursor, VS Code и любой клиент MCP) сам находит нужный государственный реестр, проверяет компанию по ИНН и достаёт записи о лицензиях, членстве в СРО и аккредитациях. В каждом ответе источник и дата выгрузки.
 
 - Адрес: `https://reestr-reestrov.ru/api/mcp`
