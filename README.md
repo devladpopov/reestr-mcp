@@ -23,6 +23,7 @@
 | `list_sources` | Около 100 официальных реестров с записями (лицензии, СРО, аккредитации, Банк России, РНП), дата обновления, число записей |
 | `query_registry` | Записи одного реестра по ИНН, номеру лицензии или свидетельства, части названия, статусу |
 | `check_permits` | Все лицензии, СРО и аккредитации компании по ИНН из всех источников |
+| `registry_stats` | Статистика реестра: всего, действующих, выдано и прекращено по годам, по регионам и статусам; без источника сводка по всем, без квоты |
 
 Примеры вопросов и реальных ответов: [examples/PROMPTS.md](examples/PROMPTS.md).
 
@@ -75,7 +76,7 @@ Remote MCP server for **Russian government registries** by [reestr-reestrov.ru](
 claude mcp add --transport http reestr https://reestr-reestrov.ru/api/mcp
 ```
 
-Tools: `search_registries`, `get_registry`, `registries_for_okved`, `list_agencies`, `check_inn`, `list_sources`, `query_registry`, `check_permits` (see table above).
+Tools: `search_registries`, `get_registry`, `registries_for_okved`, `list_agencies`, `check_inn`, `list_sources`, `query_registry`, `check_permits`, `registry_stats` (see table above).
 
 Example prompts: "Which licenses and SRO memberships does INN 7707083893 have?", "Which registries must a dental clinic (OKVED 86.23) be listed in?", "Find construction companies named Mostostroy in the NOSTROY register."
 
